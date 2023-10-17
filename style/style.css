@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color:black;
+    
+  }
+
+  body,
+  header,
+  section {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    }
+
+    .wrap {
+      min-width: 950px;
+      margin: auto;
+      padding: 0 10px;
+      }
+
+  h1{
+    text-align: center;
+  }
+
+/* Menu */
+
+header nav{
+  background-color: black;
+  width:100%;
+  height: 80px;
+  position: fixed;
+  margin:auto;
+  
+  }
+
+header nav ul li {
+    float: left;
+    margin-top: 30px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+header nav ul li a {
+    color:#fff;
+    margin:25px;
+}
+
+/*ACCUEIL*/
+
+#main_image {
+  background: url(./images/owl-1281791_1280.jpg);
+  background-color: gray;
+  height: 800px;
+  
+
+ 
+  
+}
+
+h1{
+  font-size: 45px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*TATTOO*/
+
+#tattoo{
+  height: 800px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  
+  }
+
+h1{
+margin-bottom: 20px;
+}
+
+.tat{
+  width: 300px;
+  height:300px;
+  background-color: grey;
+  display: inline-block;
+  margin:20px 0 0 20px;
+  border-radius:5px;
+  
+  
+}
+
+/*FLASH*/
+
+#flash{
+  height: 800px;
+  width: auto;
+  
+}
+
+/*CONTACT*/
+
+#contact{
+  height: 800px;
+  width: auto;
+  
+}
+
+/*FOOTER*/
+
+#footer{
+  background-color: black;
+  height: 100px;
+  width: auto;
+  
+}
